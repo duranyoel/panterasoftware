@@ -1,0 +1,2 @@
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\bin\Release\Pantera Software.exe.config
+D:\resred\panterasoftware\panterasoftware\bin\Release\Pantera Software.exe.config

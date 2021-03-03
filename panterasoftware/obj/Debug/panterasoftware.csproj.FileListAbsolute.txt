@@ -1,0 +1,264 @@
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmDepositos.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmEmpresa.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmPrincipal.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.Cache
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\resred\sistemaspuntonet\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojResolveAssemblyReference.cache
+D:\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+D:\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+D:\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+D:\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojResolveAssemblyReference.cache
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmDepositos.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmEmpresa.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmPrincipal.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.Cache
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Configuracion.frmConexionEmpresa.resources
+D:\panterasoftware\panterasoftware\bin\Debug\es-VE\Pantera Software.resources.dll
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmPrincipal.es-VE.resources
+D:\panterasoftware\panterasoftware\obj\Debug\es-VE\Pantera Software.resources.dll
+D:\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlDeProveedores.resources
+C:\Users\yoelduran\Documents\MEGA\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+C:\Users\yoelduran\Documents\MEGA\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+C:\Users\yoelduran\Documents\MEGA\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\publico\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+D:\publico\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+D:\publico\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+D:\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+D:\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+D:\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+D:\resred\panterasoftware\panterasoftware\bin\Debug\es-VE\Pantera Software.resources.dll
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojResolveAssemblyReference.cache
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Configuracion.frmConexionEmpresa.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlDeProveedores.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.Cache
+D:\resred\panterasoftware\panterasoftware\obj\Debug\es-VE\Pantera Software.resources.dll
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmEmpresa.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarProveedores.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlGrupos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarCuentasBancarias.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMonedas.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepartamentos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmUnidadesDeMedida.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepositos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.es-VE.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMarcas.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmProductos.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmColores.resources
+D:\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmTallas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+G:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+G:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+G:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\es-VE\Pantera Software.resources.dll
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojResolveAssemblyReference.cache
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Configuracion.frmConexionEmpresa.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmTallas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmColores.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepositos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmEmpresa.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepartamentos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMarcas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMonedas.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmProductos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmUnidadesDeMedida.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarCuentasBancarias.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarProveedores.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlDeProveedores.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlGrupos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.es-VE.resources
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.Cache
+G:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\es-VE\Pantera Software.resources.dll
+D:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb
+D:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+D:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+D:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\es-VE\Pantera Software.resources.dll
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojResolveAssemblyReference.cache
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Configuracion.frmConexionEmpresa.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmTallas.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmColores.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepositos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmEmpresa.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepartamentos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMarcas.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMonedas.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmProductos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmUnidadesDeMedida.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarCuentasBancarias.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarProveedores.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlDeProveedores.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlGrupos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.es-VE.resources
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.Cache
+D:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\es-VE\Pantera Software.resources.dll
+I:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe.config
+I:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.exe
+I:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\Pantera Software.pdb
+I:\respaldo\resred\panterasoftware\panterasoftware\bin\Debug\es-VE\Pantera Software.resources.dll
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csprojAssemblyReference.cache
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmBancos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmCuentasBancarias.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmControlMovimientosBancarios.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Administracion.frmPlanCuentas.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmCategorias.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Configuracion.frmConexionEmpresa.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfConexion.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmConfiguracion.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmAgencias.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmCobradores.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmTallas.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmColores.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepositos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmEmpresa.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmMediosDePago.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSelEmpresa.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmSubCategorias.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Configuracion.frmTasas.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmDepartamentos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMarcas.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmMonedas.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmProductos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Inventario.frmUnidadesDeMedida.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarCuentasBancarias.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmBuscarProveedores.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlDeProveedores.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.Proveedores.frmControlGrupos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmModulos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmUsuarios.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Empresa.frmTransporte.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmLogin.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.frmBienvenida.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Properties.Resources.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmFunciones.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGrupos.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Sistema.frmGruposFunciones.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.Formularios.frmPrincipal.es-VE.resources
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.GenerateResource.cache
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\panterasoftware.csproj.CoreCompileInputs.cache
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\es-VE\Pantera Software.resources.dll
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.exe
+I:\respaldo\resred\panterasoftware\panterasoftware\obj\Debug\Pantera Software.pdb

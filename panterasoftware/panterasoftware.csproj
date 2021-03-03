@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74A80D56-A7AA-4EEF-A99E-57616827D19C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>panterasoftware</RootNamespace>
+    <AssemblyName>Pantera Software</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>es-VE</TargetCulture>
+    <PublisherName>Yoel B Duran Cabrera</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>panterasoftware.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Inventario\Colores.cs" />
+    <Compile Include="App_Code\Inventario\Departamentos.cs" />
+    <Compile Include="App_Code\Inventario\Marcas.cs" />
+    <Compile Include="App_Code\Inventario\Monedas.cs" />
+    <Compile Include="App_Code\Inventario\Productos.cs" />
+    <Compile Include="App_Code\Inventario\Tallas.cs" />
+    <Compile Include="App_Code\Inventario\UnidadesDeMedidas.cs" />
+    <Compile Include="App_Code\Proveedores\CuentasBancariasProveedores.cs" />
+    <Compile Include="App_Code\Proveedores\Grupos.cs" />
+    <Compile Include="App_Code\Proveedores\Proveedores.cs" />
+    <Compile Include="Formularios\Administracion\frmBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmBancos.Designer.cs">
+      <DependentUpon>frmBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmCuentasBancarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmCuentasBancarias.Designer.cs">
+      <DependentUpon>frmCuentasBancarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmControlMovimientosBancarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmControlMovimientosBancarios.Designer.cs">
+      <DependentUpon>frmControlMovimientosBancarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmPlanCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\frmPlanCuentas.Designer.cs">
+      <DependentUpon>frmPlanCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Administracion\Bancos.cs" />
+    <Compile Include="App_Code\Administracion\CuentasBancarias.cs" />
+    <Compile Include="App_Code\Administracion\PlanCuentas.cs" />
+    <Compile Include="App_Code\Base.cs" />
+    <Compile Include="App_Code\Configuracion\Categorias.cs" />
+    <Compile Include="App_Code\Configuracion\Empresa.cs" />
+    <Compile Include="App_Code\Configuracion\SubCategorias.cs" />
+    <Compile Include="App_Code\Empresa\Agencias.cs" />
+    <Compile Include="App_Code\Empresa\Cobradores.cs" />
+    <Compile Include="App_Code\Empresa\Depositos.cs" />
+    <Compile Include="App_Code\Empresa\MediosCobroPago.cs" />
+    <Compile Include="App_Code\Empresa\Tasas.cs" />
+    <Compile Include="App_Code\Empresa\Transporte.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Empresas.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Funciones.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Grupos.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Grupo_Funciones.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Modulos.cs" />
+    <Compile Include="App_Code\Sistema\Sistema_Usuarios.cs" />
+    <Compile Include="Formularios\Configuracion\frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConexionEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConexionEmpresa.Designer.cs">
+      <DependentUpon>frmConexionEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConfConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConfConexion.Designer.cs">
+      <DependentUpon>frmConfConexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmAgencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmAgencias.Designer.cs">
+      <DependentUpon>frmAgencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmCobradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmCobradores.Designer.cs">
+      <DependentUpon>frmCobradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmTallas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmTallas.Designer.cs">
+      <DependentUpon>frmTallas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmColores.Designer.cs">
+      <DependentUpon>frmColores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmDepositos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmDepositos.Designer.cs">
+      <DependentUpon>frmDepositos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmEmpresa.Designer.cs">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmMediosDePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmMediosDePago.Designer.cs">
+      <DependentUpon>frmMediosDePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmSelEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmSelEmpresa.Designer.cs">
+      <DependentUpon>frmSelEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmSubCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Configuracion\frmSubCategorias.Designer.cs">
+      <DependentUpon>frmSubCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmTasas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmTasas.Designer.cs">
+      <DependentUpon>frmTasas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmDepartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmDepartamentos.Designer.cs">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmMarcas.Designer.cs">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmMonedas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmMonedas.Designer.cs">
+      <DependentUpon>frmMonedas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmUnidadesDeMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario\frmUnidadesDeMedida.Designer.cs">
+      <DependentUpon>frmUnidadesDeMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmBuscarCuentasBancarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmBuscarCuentasBancarias.Designer.cs">
+      <DependentUpon>frmBuscarCuentasBancarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmBuscarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmBuscarProveedores.Designer.cs">
+      <DependentUpon>frmBuscarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmControlDeProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmControlDeProveedores.Designer.cs">
+      <DependentUpon>frmControlDeProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmControlGrupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores\frmControlGrupos.Designer.cs">
+      <DependentUpon>frmControlGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmModulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmModulos.Designer.cs">
+      <DependentUpon>frmModulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmTransporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empresa\frmTransporte.Designer.cs">
+      <DependentUpon>frmTransporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmBienvenida.Designer.cs">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Formularios\Sistema\frmFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmFunciones.Designer.cs">
+      <DependentUpon>frmFunciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmGrupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmGrupos.Designer.cs">
+      <DependentUpon>frmGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmGruposFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sistema\frmGruposFunciones.Designer.cs">
+      <DependentUpon>frmGruposFunciones.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Formularios\Administracion\frmBancos.resx">
+      <DependentUpon>frmBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Administracion\frmCuentasBancarias.resx">
+      <DependentUpon>frmCuentasBancarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Administracion\frmControlMovimientosBancarios.resx">
+      <DependentUpon>frmControlMovimientosBancarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Administracion\frmPlanCuentas.resx">
+      <DependentUpon>frmPlanCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Configuracion\frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Configuracion\frmConexionEmpresa.resx">
+      <DependentUpon>frmConexionEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Configuracion\frmConfConexion.resx">
+      <DependentUpon>frmConfConexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Configuracion\frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmAgencias.resx">
+      <DependentUpon>frmAgencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmCobradores.resx">
+      <DependentUpon>frmCobradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmTallas.resx">
+      <DependentUpon>frmTallas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmColores.resx">
+      <DependentUpon>frmColores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmDepositos.resx">
+      <DependentUpon>frmDepositos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmMediosDePago.resx">
+      <DependentUpon>frmMediosDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmSelEmpresa.resx">
+      <DependentUpon>frmSelEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Configuracion\frmSubCategorias.resx">
+      <DependentUpon>frmSubCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmTasas.resx">
+      <DependentUpon>frmTasas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPrincipal.es-VE.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmDepartamentos.resx">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmMarcas.resx">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmMonedas.resx">
+      <DependentUpon>frmMonedas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario\frmUnidadesDeMedida.resx">
+      <DependentUpon>frmUnidadesDeMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedores\frmBuscarCuentasBancarias.resx">
+      <DependentUpon>frmBuscarCuentasBancarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedores\frmBuscarProveedores.resx">
+      <DependentUpon>frmBuscarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedores\frmControlDeProveedores.resx">
+      <DependentUpon>frmControlDeProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedores\frmControlGrupos.resx">
+      <DependentUpon>frmControlGrupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sistema\frmModulos.resx">
+      <DependentUpon>frmModulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sistema\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empresa\frmTransporte.resx">
+      <DependentUpon>frmTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sistema\frmFunciones.resx">
+      <DependentUpon>frmFunciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sistema\frmGrupos.resx">
+      <DependentUpon>frmGrupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sistema\frmGruposFunciones.resx">
+      <DependentUpon>frmGruposFunciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom.png" />
+    <None Include="Resources\Yes.png" />
+    <None Include="Resources\Yellow tag.png" />
+    <None Include="Resources\Yellow pin.png" />
+    <None Include="Resources\Yellow bookmark.png" />
+    <None Include="Resources\Wrench.png" />
+    <None Include="Resources\Warning.png" />
+    <None Include="Resources\Wallet.png" />
+    <None Include="Resources\Volume.png" />
+    <None Include="Resources\View.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\Up-down.png" />
+    <None Include="Resources\Update.png" />
+    <None Include="Resources\Up.png" />
+    <None Include="Resources\Unlock.png" />
+    <None Include="Resources\Undo.png" />
+    <None Include="Resources\Twitter.png" />
+    <None Include="Resources\Tune.png" />
+    <None Include="Resources\Trackback.png" />
+    <None Include="Resources\Top.png" />
+    <None Include="Resources\Toolbox.png" />
+    <None Include="Resources\Thumbs up.png" />
+    <None Include="Resources\Thumbs down.png" />
+    <None Include="Resources\Text preview.png" />
+    <None Include="Resources\Terminate.png" />
+    <None Include="Resources\Taxi.png" />
+    <None Include="Resources\Target.png" />
+    <None Include="Resources\Table.png" />
+    <None Include="Resources\Sync.png" />
+    <None Include="Resources\Sum.png" />
+    <None Include="Resources\Stopwatch.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\Stop sign.png" />
+    <None Include="Resources\stock_unknown.png" />
+    <None Include="Resources\stock_database.png" />
+    <None Include="Resources\stock_advanced-filter.png" />
+    <None Include="Resources\stock_add-decimal-place.png" />
+    <None Include="Resources\Sound.png" />
+    <None Include="Resources\Smile.png" />
+    <None Include="Resources\Silence.png" />
+    <None Include="Resources\Shopping cart.png" />
+    <None Include="Resources\Shield 16x16.png" />
+    <None Include="Resources\serial.png" />
+    <None Include="Resources\Search 2.png" />
+    <None Include="Resources\Script.png" />
+    <None Include="Resources\Schedule.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\salir.png" />
+    <None Include="Resources\Sad.png" />
+    <None Include="Resources\rotacion.png" />
+    <None Include="Resources\Rewind.png" />
+    <None Include="Resources\Retort.png" />
+    <None Include="Resources\retiro.png" />
+    <None Include="Resources\reporte3.png" />
+    <None Include="Resources\reporte2.png" />
+    <None Include="Resources\reporte.png" />
+    <None Include="Resources\Report.png" />
+    <None Include="Resources\Repair.png" />
+    <None Include="Resources\Remove.png" />
+    <None Include="Resources\reloj.png" />
+    <None Include="Resources\registrar.png" />
+    <None Include="Resources\Redo.png" />
+    <None Include="Resources\Red tag.png" />
+    <None Include="Resources\Red star.png" />
+    <None Include="Resources\Red pin.png" />
+    <None Include="Resources\Red mark.png" />
+    <None Include="Resources\Red bookmark.png" />
+    <None Include="Resources\Record.png" />
+    <None Include="Resources\Raise.png" />
+    <None Include="Resources\Radiation.png" />
+    <None Include="Resources\Question.png" />
+    <None Include="Resources\proveedor2.png" />
+    <None Include="Resources\Problem.png" />
+    <None Include="Resources\Print.png" />
+    <None Include="Resources\Previous.png" />
+    <None Include="Resources\Previous record.png" />
+    <None Include="Resources\precios.png" />
+    <None Include="Resources\Play-music.png" />
+    <None Include="Resources\Playback.png" />
+    <None Include="Resources\Play.png" />
+    <None Include="Resources\Pinion.png" />
+    <None Include="Resources\Pie chart.png" />
+    <None Include="Resources\Phone.png" />
+    <None Include="Resources\Phone number.png" />
+    <None Include="Resources\Percent.png" />
+    <None Include="Resources\Pause.png" />
+    <None Include="Resources\Paste.png" />
+    <None Include="Resources\ordenar.png" />
+    <None Include="Resources\ok.bmp" />
+    <None Include="Resources\No-entry.png" />
+    <None Include="Resources\No.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\Next track.png" />
+    <None Include="Resources\Mute.png" />
+    <None Include="Resources\Move.png" />
+    <None Include="Resources\Modify.png" />
+    <None Include="Resources\Mobile-phone.png" />
+    <None Include="Resources\Message.png" />
+    <None Include="Resources\menos.png" />
+    <None Include="Resources\Medium rating.png" />
+    <None Include="Resources\mas.png" />
+    <None Include="Resources\mano.png" />
+    <None Include="Resources\Male.png" />
+    <None Include="Resources\Male symbol.png" />
+    <None Include="Resources\Magic wand.png" />
+    <None Include="Resources\Low rating.png" />
+    <None Include="Resources\Load.png" />
+    <None Include="Resources\List.png" />
+    <None Include="Resources\Linux.png" />
+    <None Include="Resources\Liner.png" />
+    <None Include="Resources\limpiar.png" />
+    <None Include="Resources\Lightning.png" />
+    <None Include="Resources\libro.png" />
+    <None Include="Resources\Left-right.png" />
+    <None Include="Resources\Last.png" />
+    <None Include="Resources\Last recor.png" />
+    <None Include="Resources\Iphone.png" />
+    <None Include="Resources\In-yang.png" />
+    <None Include="Resources\informe.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\imprimir.png" />
+    <None Include="Resources\Hungup.png" />
+    <None Include="Resources\How-to.png" />
+    <None Include="Resources\Hourglass.png" />
+    <None Include="Resources\History.png" />
+    <None Include="Resources\Hint.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\Help symbol.png" />
+    <None Include="Resources\Help book.png" />
+    <None Include="Resources\Help book 3d.png" />
+    <None Include="Resources\Heart.png" />
+    <None Include="Resources\Hard disk.png" />
+    <None Include="Resources\Green tag.png" />
+    <None Include="Resources\Green pin.png" />
+    <None Include="Resources\Green bookmark.png" />
+    <None Include="Resources\grafico.png" />
+    <None Include="Resources\go-up.png" />
+    <None Include="Resources\go-top.png" />
+    <None Include="Resources\go-previous.png" />
+    <None Include="Resources\Good mark.png" />
+    <None Include="Resources\go-next.png" />
+    <None Include="Resources\go-down.png" />
+    <None Include="Resources\go-bottom.png" />
+    <None Include="Resources\Go.png" />
+    <None Include="Resources\Go forward.png" />
+    <None Include="Resources\Go back.png" />
+    <None Include="Resources\Globe.png" />
+    <None Include="Resources\Gift.png" />
+    <None Include="Resources\Free bsd.png" />
+    <None Include="Resources\Forward.png" />
+    <None Include="Resources\formulario.png" />
+    <None Include="Resources\Forbidden.png" />
+    <None Include="Resources\fondbot.gif" />
+    <None Include="Resources\Flash drive.png" />
+    <None Include="Resources\Flag.png" />
+    <None Include="Resources\First.png" />
+    <None Include="Resources\First record.png" />
+    <None Include="Resources\firma.png" />
+    <None Include="Resources\Find.png" />
+    <None Include="Resources\filtro.png" />
+    <None Include="Resources\Filter.png" />
+    <None Include="Resources\Film.png" />
+    <None Include="Resources\Female.png" />
+    <None Include="Resources\Female symbol.png" />
+    <None Include="Resources\Favourites.png" />
+    <None Include="Resources\Fast-forward.png" />
+    <None Include="Resources\Fall.png" />
+    <None Include="Resources\Eye.png" />
+    <None Include="Resources\Expand.png" />
+    <None Include="Resources\Euro.png" />
+    <None Include="Resources\Error.png" />
+    <None Include="Resources\Erase.png" />
+    <None Include="Resources\Equipment.png" />
+    <None Include="Resources\encabezado.png" />
+    <None Include="Resources\E-mail.png" />
+    <None Include="Resources\Eject.png" />
+    <None Include="Resources\edit-select-all.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\Earth.png" />
+    <None Include="Resources\Downloads folder.png" />
+    <None Include="Resources\Down.png" />
+    <None Include="Resources\Display 16x16.png" />
+    <None Include="Resources\Disaster.png" />
+    <None Include="Resources\Dial.png" />
+    <None Include="Resources\Diagram.png" />
+    <None Include="Resources\devolucion.png" />
+    <None Include="Resources\depto2.png" />
+    <None Include="Resources\depto.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Database.png" />
+    <None Include="Resources\Danger.png" />
+    <None Include="Resources\Cut.png" />
+    <None Include="Resources\costo.png" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\consulta.png" />
+    <None Include="Resources\computadora.png" />
+    <None Include="Resources\compras.png" />
+    <None Include="Resources\Component.png" />
+    <None Include="Resources\Compass.png" />
+    <None Include="Resources\Comment.png" />
+    <None Include="Resources\comentario.png" />
+    <None Include="Resources\Clock.png" />
+    <None Include="Resources\Clipboard.png" />
+    <None Include="Resources\clip.png" />
+    <None Include="Resources\clientes2.png" />
+    <None Include="Resources\Clean 2.png" />
+    <None Include="Resources\cierre.png" />
+    <None Include="Resources\cheque.png" />
+    <None Include="Resources\CD.png" />
+    <None Include="Resources\Car key.png" />
+    <None Include="Resources\cantidad.png" />
+    <None Include="Resources\candado.png" />
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\calendario.png" />
+    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\Calculator.png" />
+    <None Include="Resources\calculadora.png" />
+    <None Include="Resources\cafe.png" />
+    <None Include="Resources\Buy.png" />
+    <None Include="Resources\Create.png" />
+    <None Include="Resources\ficha.png" />
+    <None Include="Resources\producto.png" />
+    <None Include="Resources\proveedor.png" />
+    <None Include="Resources\Delivery.png" />
+    <None Include="Resources\People.png" />
+    <None Include="Resources\deposito.png" />
+    <None Include="Resources\cerrar.png" />
+    <None Include="Resources\Dollar.png" />
+    <None Include="Resources\Key.png" />
+    <None Include="Resources\Company.png" />
+    <None Include="Resources\control.png" />
+    <None Include="Resources\Network connection.png" />
+    <None Include="Resources\dinero.png" />
+    <None Include="Resources\clientes.png" />
+    <None Include="Resources\Turn off.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\Computer 16x16.png" />
+    <None Include="Resources\Boss.png" />
+    <None Include="Resources\agencia.png" />
+    <None Include="Resources\Accounting.png" />
+    <None Include="Resources\3d bar chart.png" />
+    <None Include="Resources\Abort.png" />
+    <None Include="Resources\abortar.png" />
+    <None Include="Resources\About.png" />
+    <None Include="Resources\abrir_pendiente.png" />
+    <None Include="Resources\abrir_pendiente2.png" />
+    <None Include="Resources\Acceso_Usuarios.jpg" />
+    <None Include="Resources\accion.png" />
+    <None Include="Resources\Administrator.png" />
+    <None Include="Resources\agrupar.png" />
+    <None Include="Resources\Alarm clock.png" />
+    <None Include="Resources\Alarm.png" />
+    <None Include="Resources\Alert.png" />
+    <None Include="Resources\Alien.png" />
+    <None Include="Resources\Anchor.png" />
+    <None Include="Resources\Apply.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Bad mark.png" />
+    <None Include="Resources\Bandera-de-Venezuela.jpg" />
+    <None Include="Resources\barra.png" />
+    <None Include="Resources\Bee.png" />
+    <None Include="Resources\Black bookmark.png" />
+    <None Include="Resources\Black pin.png" />
+    <None Include="Resources\Black tag.png" />
+    <None Include="Resources\Blog.png" />
+    <None Include="Resources\Blue bookmark.png" />
+    <None Include="Resources\Blue key.png" />
+    <None Include="Resources\Blue pin.png" />
+    <None Include="Resources\Blue tag.png" />
+    <None Include="Resources\Bomb.png" />
+    <None Include="Resources\Bookmark.png" />
+    <None Include="Resources\borrar2.png" />
+    <None Include="Resources\Bottom.png" />
+    <None Include="Resources\Brush.png" />
+    <None Include="Resources\Bubble.png" />
+    <Content Include="Resources\buscar.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\icono.ico" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\Robot.png" />
+    <None Include="Resources\salida.png" />
+    <None Include="Resources\eliminar.png" />
+    <None Include="Resources\grabar.png" />
+    <None Include="Resources\New.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\buscar_grupos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abandonar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avanzado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.11.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Report Viewer 2012 Runtime</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.Express.10.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 R2 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularios\Clientes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
